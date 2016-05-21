@@ -9,7 +9,7 @@
     </entity>
     <entity name="Person" syncable="YES">
         <attribute name="age" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
-        <attribute name="first" attributeType="Date" syncable="YES"/>
+        <attribute name="first" attributeType="String" syncable="YES"/>
         <attribute name="last" optional="YES" attributeType="String" syncable="YES"/>
         <relationship name="address" toMany="YES" deletionRule="Nullify" destinationEntity="Address" inverseName="person" inverseEntity="Address" syncable="YES"/>
     </entity>
